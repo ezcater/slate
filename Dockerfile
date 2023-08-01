@@ -10,7 +10,7 @@ EXPOSE 4567
 COPY Gemfile .
 COPY Gemfile.lock .
 
-RUN apt-get update \
+RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends \
         build-essential \
         nodejs \
