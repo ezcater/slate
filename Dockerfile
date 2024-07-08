@@ -1,4 +1,5 @@
-FROM ruby:3.3.0-slim
+FROM ruby:3.3.3-slim
+# images found at https://hub.docker.com/_/ruby
 
 WORKDIR /srv/slate
 

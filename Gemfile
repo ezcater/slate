@@ -1,5 +1,5 @@
-ruby "3.3.0"
-source "https://ezcater.jfrog.io/ezcater/api/gems/ezcater-gem-source"
+ruby "3.3.3"
+source "https://rubygems.org"
 
 # Middleman
 gem "middleman", "~>4.4"
