@@ -1,4 +1,4 @@
-FROM ruby:3.3.6-alpine
+FROM ruby:3.4.3-alpine
 # images found at https://hub.docker.com/_/ruby
 
 WORKDIR /srv/slate
